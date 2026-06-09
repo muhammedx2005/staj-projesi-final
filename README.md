@@ -1,7 +1,8 @@
 # UI Bileşen Kütüphanesi ve Landing Page
 
 Bu proje, 20 iş günlük zorunlu yaz stajı çalışmaları kapsamında, modern web teknolojileri kullanılarak sıfırdan geliştirilmiş bağımsız bir UI bileşen kütüphanesi ve tanıtım sayfasıdır. 
-
+## 🌐 Canlı Demo
+[Projeyi buradan inceleyebilirsiniz](https://staj-projesi-final.vercel.app).
 ## 🛠 Kullanılan Teknolojiler ve Mimari
 * **Altyapı:** Vite
 * **Stil Mimarisi:** SCSS ve BEM metodolojisi
