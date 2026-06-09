@@ -1,0 +1,13 @@
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  h3 { margin-bottom: 15px; }
+}

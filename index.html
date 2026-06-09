@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Modern ve hızlı UI bileşen kütüphanesi projesi.">
+    <title>Mini Landing Page | Staj Projesi</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h2>🚀 UI Kütüphanesi</h2>
+        <button id="themeToggle" class="btn btn--outline">Aydınlık/Karanlık Tema</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <h1 class="hero__title">Modern ve Hızlı UI Bileşenleri</h1>
+          <p class="hero__desc">Bu landing page, sıfırdan yazılmış yeniden kullanılabilir UI bileşenleri ile oluşturulmuştur.</p>
+          <button class="btn btn--primary" id="openModalBtn">Hemen Başla</button>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container">
+          <h2>Özellikler</h2>
+          <div class="features__grid">
+            <div class="card">
+              <h3>Hızlı</h3>
+              <p>Vite ile anında derleme ve geliştirme.</p>
+            </div>
+            <div class="card">
+              <h3>Responsive</h3>
+              <p>Mobil öncelikli yaklaşım ile her cihazda kusursuz.</p>
+            </div>
+            <div class="card">
+              <h3>Erişilebilir</h3>
+              <p>Temel a11y kurallarına uygun HTML yapısı.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <h2>Fiyatlandırma</h2>
+          <div class="features__grid">
+            <div class="card">
+              <h3>Temel Paket</h3>
+              <p style="font-size: 2rem; font-weight: bold; margin: 15px 0;">Ücretsiz</p>
+              <ul style="list-style-position: inside; margin-bottom: 20px; opacity: 0.8;">
+                <li>5 UI Bileşeni</li>
+                <li>Topluluk Desteği</li>
+              </ul>
+              <button class="btn btn--outline" style="width: 100%;">Hemen Başla</button>
+            </div>
+            <div class="card" style="border-color: var(--primary-color);">
+              <h3>Pro Paket</h3>
+              <p style="font-size: 2rem; font-weight: bold; margin: 15px 0;">₺99<span style="font-size: 1rem; font-weight: normal;">/ay</span></p>
+              <ul style="list-style-position: inside; margin-bottom: 20px; opacity: 0.8;">
+                <li>Tüm UI Bileşenleri</li>
+                <li>Öncelikli Destek</li>
+              </ul>
+              <button class="btn btn--primary" style="width: 100%;">Satın Al</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container">
+          <h2>Sıkça Sorulan Sorular</h2>
+          <div class="accordion" id="faqAccordion">
+            
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-content-1">Bu projede hangi teknolojiler kullanıldı?</button>
+              <div class="accordion__content" id="faq-content-1">
+                <p>HTML, SCSS ve tamamen Vanilla JavaScript kullanıldı. DOM manipülasyonu ile harici kütüphane olmadan tasarlandı.</p>
+              </div>
+            </div>
+            
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-content-2">Bu projenin amacı nedir?</button>
+              <div class="accordion__content" id="faq-content-2">
+                <p>Bilgisayar Mühendisliği öğrencisi olarak, 20 iş günlük zorunlu yaz stajım kapsamında teknik pratiklerimi sergilemek için bu UI kütüphanesini hazırladım.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2>İletişime Geçin</h2>
+          <form id="contactForm" class="contact__form">
+            <div class="input-group">
+              <label for="email">E-posta Adresiniz</label>
+              <input type="email" id="email" class="input" placeholder="ornek@mail.com" />
+              <span class="error-msg" id="emailError"></span>
+            </div>
+            <button type="submit" class="btn btn--primary">Gönder</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-overlay" id="myModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal">
+        <div class="modal__header">
+          <h3 id="modalTitle">Hoş Geldiniz!</h3>
+          <button class="modal__close" id="closeModalBtn" aria-label="Kapat">&times;</button>
+        </div>
+        <div class="modal__body">
+          <p>Bu modal penceresi sıfırdan Vanilla JS ile yapılmıştır.</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js" defer></script>
+  </body>
+</html>
