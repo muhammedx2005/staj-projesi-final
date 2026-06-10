@@ -20,3 +20,4 @@ Tüm bileşenler modüler olarak ayrı SCSS dosyalarında tasarlanmıştır:
 ## 📊 Performans (Lighthouse)
 Lighthouse testlerinde Performans, Erişilebilirlik, Best Practices ve SEO alanlarında tam puan elde edilmiştir. 
 ![Lighthouse Skoru](./lighthouse.png)
+.
