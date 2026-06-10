@@ -5,7 +5,7 @@ Değişim Günlüğü
 ### Düzeltmeler
 * Vercel canlı demo linki eklendi.
 * Son dökümantasyon kontrolleri yapıldı ve proje teslimata hazır hale getirildi.
-* 
+  
 ## [1.0.0] - 2026-06-09
 ### Eklenenler
 - Modüler UI bileşenleri (Modal, Accordion, Card, Form, Button).
